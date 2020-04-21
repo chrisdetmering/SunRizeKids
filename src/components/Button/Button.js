@@ -37,7 +37,7 @@ const button = (props) => {
   }
 
   return( 
-    <div className={ButtonStyle} onClick={props.click? props.click : handleClick}>
+    <div className={ButtonStyle} onClick={props.click ? props.click : handleClick}>
         {ButtonContent}
     </div>
   )

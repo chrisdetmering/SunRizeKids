@@ -1,36 +1,57 @@
-.LandingBtn { 
-  width: 215px; height: 45px;
+.Button { 
   background-color: orange; 
   border-radius: 5px; 
   font-size: 20px; 
   color: white; 
-  display: flex; 
-  justify-content: center;
-  align-items: center;
+  display: inline-block; 
+  padding: 6px; 
 }
 
-.LandingBtn p { 
+.Button.Submit { 
+  background-color: transparent;
+  border: 1px solid white; 
+  text-align: center;
+  width: 84px;
+  font-size: 30px;
+  margin-top: 5px; 
+}
+
+.Button p { 
   display: inline-block;
   height: 22px;
   margin: 0; 
+  font-weight: bold;  
 }
 
-
-.LandingBtn:hover { 
+.Button:hover { 
   cursor: pointer;
   background-color: #654321;
 }
 
-
-
-ButtonTwo { 
-
+.Button.Submit:hover { 
+  cursor: pointer;
+  background-color: white; 
+  color: #393a39;
 }
 
-ButtonThree { 
 
+.DownloadAppBtn { 
+  width: 130px; height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  border-radius: 5px; 
+  margin: 0 5px; 
 }
 
-ButtonFour { 
+.DownloadAppBtn:hover { 
+  cursor: pointer;
+}
 
+.BgGooglePlay { 
+  background-image: url('../../assets/google_play.png');
+}
+
+.BgAppStore { 
+  background-image: url('../../assets/app_store.png');
 }

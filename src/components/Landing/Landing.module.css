@@ -4,3 +4,18 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.Content { 
+  display: inline-block;
+  width: 370px;
+  text-align: left;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.Content h1 { 
+  text-align: left;
+}
+

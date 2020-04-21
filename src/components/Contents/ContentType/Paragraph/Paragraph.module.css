@@ -1,7 +1,18 @@
 .ParagraphStyles { 
-  width: 700px; 
+  width: 900px; 
+  display: flex; 
+}
+
+.MainContent { 
+  width: 631px; 
+  margin: 0 20px; 
 }
 
 .NoListStyle { 
  list-style-type: none;
+}
+
+.IconsContainer { 
+  width: 130px; 
+  display: inline-block;
 }

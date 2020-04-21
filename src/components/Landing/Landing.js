@@ -8,9 +8,13 @@ const landing = () => {
   
   return( 
     <div className={classes.Landing}>
-      <Button 
-        buttonType={Landing}
-        href={SunrizeKidsSignUp}/>
+      <div className={classes.Content}>
+        <h1>SunRize Kids</h1>
+        <p>Keeping kids focused While stuck at home</p>
+        <Button 
+          buttonType={Landing}
+          href={SunrizeKidsSignUp}/>
+      </div>
     </div>
   )
 }

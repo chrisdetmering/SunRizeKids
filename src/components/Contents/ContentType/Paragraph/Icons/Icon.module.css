@@ -1,0 +1,42 @@
+.Icon { 
+  display: inline-block; 
+  width: 90px; height: 90px;
+  border: 1px solid black; 
+  border-radius: 50%; 
+  background-size: 90px 90px; 
+  background-repeat: no-repeat;
+  margin: 0 20px; 
+}
+
+.Text { 
+  font-size: 20px; 
+  text-align: center;
+  margin: 5px 0 10px; 
+}
+
+.SchoolWork { 
+   background-image: url('../../../../../assets/reading_homework_kids.png');
+   background-size: cover;
+}
+.Zoom { 
+   background-image: url('../../../../../assets/community.png');
+}
+.Water { 
+   background-image: url('../../../../../assets/kid_drinking_water.png');
+   background-size: 80px 80px; 
+   background-position: 25% 115%; 
+}
+.Workouts{ 
+   background-image: url('../../../../../assets/kids_workout.png');
+   background-size: 95px 95px; 
+  
+}
+.Nutrition { 
+   background-image: url('../../../../../assets/healthy_food.png');
+   
+}
+.Outside { 
+   background-image: url('../../../../../assets/kids_outside.png');
+  background-size: 115px 100px;
+  background-position: center;
+}

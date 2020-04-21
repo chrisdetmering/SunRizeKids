@@ -1,0 +1,21 @@
+@import "normalize.css";
+
+body { 
+  background-color: #f3eee4;
+  font-family: 'Amatic SC', Arial, Helvetica, sans-serif !important;
+  color: #654321;
+  font-size: 30px;
+  font-weight: bold; 
+}
+
+h1 { 
+  text-align: center;
+  font-size: 82px;
+  margin: 0 0 10px 0; 
+}
+
+h2 { 
+  text-align: center;
+  font-size: 60px;
+  margin: 0;
+}

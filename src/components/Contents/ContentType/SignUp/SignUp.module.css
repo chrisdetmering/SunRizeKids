@@ -1,0 +1,30 @@
+.SignUpContainer { 
+  width: 950px; height: 396px; 
+  border: 1px solid black;
+  overflow: hidden;
+  display: flex; 
+}
+
+.SignUp { 
+  width: 550px; height: 396px;
+  border: 1px solid black;
+  display: flex; 
+  margin: 0;
+  text-align: center;
+}
+
+.SignUp p { 
+  margin: 0; 
+  height: 35px; 
+}
+
+.PhonePicContainer { 
+  width: 380px; 
+  border: 1px solid black;
+  display: inline-block;
+  margin: 0;
+}
+
+.PhonePicContainer img { 
+  width: 268px; 
+}

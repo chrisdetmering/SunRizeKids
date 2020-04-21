@@ -1,0 +1,6 @@
+.Landing { 
+  height: 800px; 
+  background-image: url('../../assets/kids_rize_background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

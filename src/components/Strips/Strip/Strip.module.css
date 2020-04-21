@@ -1,0 +1,12 @@
+.StripOne { 
+  height: 500px;
+}
+
+.StripTwo { 
+  height: 660px;
+  background-image: url('../../../assets/teal-paper-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+

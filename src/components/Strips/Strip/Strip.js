@@ -4,12 +4,14 @@ import Content from '../../Contents/Contents';
 
 const strip = (props) => { 
   let StripStyle = props.bg % 2 === 0 ? 
-    classes.StripOne : classes.StripTwo
-
+    [classes.Strip, classes.One].join(" ")
+    : [classes.Strip, classes.Two].join(" ")
 
   return(<div className={StripStyle}>
-    <h1>{props.header}</h1>
-    <Content type={props.type}/>
+      <div className={classes.Container}>
+        <h1>{props.header}</h1>
+        <Content type={props.type}/>
+      </div>
     </div>
   )
 }

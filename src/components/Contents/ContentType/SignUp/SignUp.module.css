@@ -12,6 +12,13 @@
   text-align: center;
 }
 
+.Download { 
+  box-sizing: border-box;
+  margin: 20px 0;
+  padding: 30px;
+  box-shadow: 5px 5px 10px 5px #888888;
+}
+
 .SignUp p { 
   margin: 10px 0; 
   width: 100%; height: 35px; 

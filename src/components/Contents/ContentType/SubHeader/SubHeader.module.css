@@ -1,7 +1,11 @@
 .SubHeader { 
-  width: 700px
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
 } 
 
 .SubHeader p { 
-  margin: 5px 0; 
+  
+  text-align: center;
 }

@@ -1,11 +1,19 @@
-.StripOne { 
-  height: 500px;
+.Strip { 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.One { 
+  height: 800px;
   background-color: #15B2C9;
   color: white;
 }
 
-.StripTwo { 
-  height: 660px;
+.Two { 
+  height: 800px;
 }
 
-
+/* .Container { 
+  
+} */

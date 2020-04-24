@@ -14,6 +14,7 @@ const signUp = () => {
   return( 
     <div className={classes.SignUpContainer}>
       <div className={classes.SignUp}>
+        <div className={classes.Download}>
           <p>1. Download the Wodify Rize App!</p>
           <div>
            <Button 
@@ -23,7 +24,9 @@ const signUp = () => {
             href={hrefAppleStore}
             buttonType={AppleStore}/> 
           </div>
+        </div>
           <p>2. Register For KidsRize </p>
+       
         <div><Button
           href={hrefSunRizeKids}
           buttonType={KidsRize} /></div>

@@ -1,5 +1,5 @@
 .Button { 
-  background-color: orange; 
+  background-color: #F16623;
   border-radius: 5px; 
   font-size: 20px; 
   color: white; 
@@ -25,7 +25,7 @@
 
 .Button:hover { 
   cursor: pointer;
-  background-color: #654321;
+  background-color: orange;
 }
 
 .Button.Submit:hover { 

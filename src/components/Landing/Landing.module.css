@@ -2,17 +2,16 @@
   height: 800px; 
 }
 
-.Content { 
-  display: inline-block;
-  width: 370px;
-  text-align: left;
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 10%;
+.LandingBg { 
+  height: 604px;  
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }
 
-.Content h1 { 
-  text-align: left;
+.LandingBg img { 
+  height: 60%;
+  width: 70%;
 }
+
 

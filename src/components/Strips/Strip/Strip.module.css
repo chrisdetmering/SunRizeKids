@@ -1,11 +1,11 @@
 .StripOne { 
   height: 500px;
+  background-color: #15B2C9;
+  color: white;
 }
 
 .StripTwo { 
   height: 660px;
-  background-color: #15B2C9;
-  color: white;
 }
 
 

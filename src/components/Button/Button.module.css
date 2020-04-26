@@ -36,10 +36,9 @@
 
 
 .DownloadAppBtn { 
-  width: 130px; height: 40px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: inline-block;
+  width: 130px; height: 80px;
+  display: flex; 
+  justify-content: center; 
   border-radius: 5px; 
   margin: 0 5px; 
 }
@@ -48,10 +47,6 @@
   cursor: pointer;
 }
 
-.BgGooglePlay { 
-  background-image: url('../../assets/google_play.png');
-}
-
-.BgAppStore { 
-  background-image: url('../../assets/app_store.png');
+.DownloadAppBtn img { 
+  height: 100%;
 }

@@ -1,5 +1,7 @@
 import React from 'react'; 
 import classes from './Button.module.css';
+import AppleLogo from '../../assets/apple_logo.png';
+import GoogleLogo from '../../assets/google_logo.png';
 
 const button = (props) => { 
   let ButtonStyle = null
@@ -11,18 +13,16 @@ const button = (props) => {
       ButtonContent = (<p>Join Challenge Now!</p>)  
       break; 
     case ('GooglePlay'):
-      ButtonStyle = [classes.DownloadAppBtn]
-      ButtonStyle.push(classes.BgGooglePlay);
-      ButtonStyle =  ButtonStyle.join(" ");
+      ButtonStyle = classes.DownloadAppBtn;
+      ButtonContent = <img src={GoogleLogo} alt="Google Logo" />
       break;
     case ('AppleStore'):
-      ButtonStyle = [classes.DownloadAppBtn]
-      ButtonStyle.push(classes.BgAppStore);
-      ButtonStyle = ButtonStyle.join(" ");
+      ButtonStyle = classes.DownloadAppBtn;
+      ButtonContent = <img src={AppleLogo} alt="Apple Logo"/>
       break;
     case ('KidsRize'):
-      ButtonStyle = classes.Button;
-      ButtonContent = 'Register Here!'
+      ButtonStyle = classes.Button + ' ' + classes.Submit
+      ButtonContent = 'Here!'
       break;
     case ('Contact'):
       ButtonStyle = classes.Button + ' ' + classes.Submit

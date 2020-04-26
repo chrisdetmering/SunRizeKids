@@ -6,7 +6,7 @@ const strips = () => {
   const strips = [
     { id: '32432', header: 'What is SunRize Kids?', contentType: 'content-1' }, 
     { id: '32432', header: 'How Does it work?', contentType: 'content-2' }, 
-    { id: '32432', header: 'Join the Challenge in Two Simple Steps!', contentType: 'content-3' }, 
+    { id: '32432', header: 'Join in Two Steps!', contentType: 'content-3' }, 
     { id: '32432', header: 'Great Kids Are...', contentType: 'content-4' }, 
   ]
 

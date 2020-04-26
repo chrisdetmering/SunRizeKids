@@ -1,27 +1,31 @@
 .SignUpContainer { 
-  width: 950px; height: 396px; 
-  overflow: hidden;
+  width: 950px; height: 696px; 
+  /* margin-top: 100px; */
   display: flex; 
 }
-
+/* 
 .SignUp { 
   width: 550px; 
   display: flex; 
   flex-direction: column;
   margin: 0;
   text-align: center;
-}
+} */
 
-.Download { 
+.Card { 
   box-sizing: border-box;
-  margin: 20px 0;
+  margin: 20px 20px;
   padding: 30px;
   box-shadow: 5px 5px 10px 5px #888888;
 }
 
-.SignUp p { 
-  margin: 10px 0; 
-  width: 100%; height: 35px; 
+.Card p {
+  text-align: center;
+}
+
+.SignUp { 
+  margin: 0px 0; 
+  width: 100%; height: auto; 
 }
 
 .PhonePicContainer { 
@@ -32,4 +36,16 @@
 
 .PhonePicContainer img { 
   width: 268px; 
+}
+
+.Num { 
+  font-size: 80px; 
+  font-weight: bold;
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+
+.btnContainer { 
+  display: flex; 
+  justify-content: center;
 }

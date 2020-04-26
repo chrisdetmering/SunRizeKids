@@ -14,23 +14,31 @@ const signUp = () => {
   return( 
     <div className={classes.SignUpContainer}>
       <div className={classes.SignUp}>
-        <div className={classes.Download}>
-          <p>1. Download the Wodify Rize App!</p>
-          <div>
-           <Button 
-            href={hrefGooglePlay}
-            buttonType={GooglePlay}/>   
-           <Button
-            href={hrefAppleStore}
-            buttonType={AppleStore}/> 
-          </div>
+        <div className={classes.Card}>
+          <div className={classes.Num}>#1</div>
+            <p style={{margin: '10px'}}>Download the Wodify Rize App!</p>
+            <div className={classes.btnContainer}>
+            <Button 
+              href={hrefGooglePlay}
+              buttonType={GooglePlay}/>   
+            <Button
+              href={hrefAppleStore}
+              buttonType={AppleStore}/> 
+            </div>
         </div>
-          <p>2. Register For KidsRize </p>
-       
-        <div><Button
-          href={hrefSunRizeKids}
-          buttonType={KidsRize} /></div>
-      </div>
+
+
+          <div className={classes.Card}>
+          <div className={classes.Num}>#2</div>
+            <p style={{margin: '10px'}}>Register For KidsRize </p>
+        
+          <div className={classes.btnContainer}><Button
+              href={hrefSunRizeKids}
+              buttonType={KidsRize} /></div>
+          </div>
+
+
+        </div>
       <div className={classes.PhonePicContainer}>
         <img src={phonePic}  alt='SunRize Kids on Wodify App'/>
       </div>

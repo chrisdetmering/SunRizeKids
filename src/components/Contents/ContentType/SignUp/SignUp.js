@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './SignUp.module.css';
-import phonePic from '../../../../assets/app_photo.png';
+// import phonePic from '../../../../assets/app_photo.png';
 import Button from '../../../Button/Button';
 
 const signUp = () => { 
@@ -16,7 +16,7 @@ const signUp = () => {
       <div className={classes.SignUp}>
         <div className={classes.Card}>
           <div className={classes.Num}>#1</div>
-            <p style={{margin: '10px'}}>Download the Wodify Rize App!</p>
+          <p style={{ margin: '10px' }}>Download the Wodify Rize App!</p>
             <div className={classes.btnContainer}>
             <Button 
               href={hrefGooglePlay}
@@ -39,9 +39,9 @@ const signUp = () => {
 
 
         </div>
-      <div className={classes.PhonePicContainer}>
+      {/* <div className={classes.PhonePicContainer}>
         <img src={phonePic}  alt='SunRize Kids on Wodify App'/>
-      </div>
+      </div> */}
     </div>
   )
 }

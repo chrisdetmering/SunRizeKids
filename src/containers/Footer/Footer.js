@@ -36,43 +36,45 @@ class Footer extends React.Component {
   render() { 
     return( 
       <div className={classes.Footer}>
-        <h1 className={classes.Header}>Have A Question?</h1>
-          <div className={classes.InputArea}> 
+        <div className={classes.Border}>
+          <h1 className={classes.Header}>Have A Question?</h1>
+            <div className={classes.InputArea}> 
 
-            <div className={classes.Container}>
-              
-              <div className={classes.InputContainer}>
-                <p>Name</p>
-                <input 
-                  className={classes.Input}
-                  name='user_name'
-                  onChange={this.handleChange}
-                  value={this.state.user_name}  
-                  type="text"/>
+              <div className={classes.Container}>
+                
+                <div className={classes.InputContainer}>
+                  <p>Name</p>
+                  <input 
+                    className={classes.Input}
+                    name='user_name'
+                    onChange={this.handleChange}
+                    value={this.state.user_name}  
+                    type="text"/>
+                </div>
+                <div className={classes.InputContainer}>
+                  <p>Email</p>
+                  <input 
+                    className={classes.Input}
+                    name='user_email'
+                    onChange={this.handleChange}
+                    value={this.state.user_email}   
+                    type="text" />
+                </div>
               </div>
-              <div className={classes.InputContainer}>
-                <p>Email</p>
-                <input 
-                  className={classes.Input}
-                  name='user_email'
-                  onChange={this.handleChange}
-                  value={this.state.user_email}   
-                  type="text" />
-              </div>
-            </div>
 
-            <div className={classes.Message}>
-              <p>Message</p>
-              <textarea 
-                className={classes.Message}
-                name='message'
-                onChange={this.handleChange}
-                 value={this.state.message}  >
-              </textarea>
+              <div className={classes.Message}>
+                <p>Message</p>
+                <textarea 
+                  className={classes.Message}
+                  name='message'
+                  onChange={this.handleChange}
+                  value={this.state.message}  >
+                </textarea>
+              </div>
+              <Button 
+              buttonType={'Contact'}
+              click={this.handleClick}/>
             </div>
-            <Button 
-            buttonType={'Contact'}
-            click={this.handleClick}/>
           </div>
       </div>
     )

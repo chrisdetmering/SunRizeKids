@@ -1,6 +1,10 @@
 import React from 'react'; 
 import classes from './Paragraph.module.css';
-// import Icons from './Icons/Icons';
+import exercise from '../../../../assets/exercise.png';
+import water from '../../../../assets/water.png';
+import tree from '../../../../assets/tree.png';
+import hike from '../../../../assets/hike.png';
+import reading from '../../../../assets/reading.png';
 const paragraph = (props) => { 
 
 
@@ -9,10 +13,37 @@ const paragraph = (props) => {
     <div className={classes.ParagraphStyles}>
      
       <div className={classes.MainContent}>
-        <p> Each child creates an account with WodifyRise App (with some help from a parent of course!). 
-          For 3 weeks they will get daily tasks to complete which they get points for to track their progress.  </p>
+        <p>  For 3 weeks each child will get daily tasks to complete which they get points for to track their progress. 
+          There is a leaderboard keeping track of these point. At the end of the three weeks, the kid with the most points, wins! </p>
       </div>
-     
+      <div style={{width: '100%'}}>
+        <h2>Tasks Like</h2>
+        <div className={classes.IconsContainer}>
+          <div className={classes.Icons}> 
+            <img src={exercise} alt='A person running'/>
+            <p>Exercise for 15 minutes!</p>
+          </div>
+          <div className={classes.Icons}>
+            <img src={water} alt='Water' />
+            <p>Drink 20oz of Water!</p>
+            
+          </div>
+          <div className={classes.Icons}>
+            <img src={hike} alt='A person Hiking' />
+            <p>Family Hike</p>
+           
+          </div>
+          <div className={classes.Icons}>
+            <img src={tree} alt='A tree' />
+            <p>Get Outside!</p>
+          </div>
+          <div className={classes.Icons}>
+            <img src={reading} alt='A person reading' />
+            <p>Complete School work</p>
+          </div>
+
+        </div>
+      </div>
     </div>
   )
 }

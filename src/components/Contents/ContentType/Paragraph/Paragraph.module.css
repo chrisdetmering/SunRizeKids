@@ -1,10 +1,11 @@
 .ParagraphStyles { 
-  width: 900px; 
+  width: 90%; 
   display: flex; 
+  flex-direction: column;
+  align-items: center; 
 }
 
 .MainContent { 
-  width: 854px;
   font-size: 24px; 
   text-align: left;
   margin: 0 20px; 
@@ -12,10 +13,27 @@
   margin: 20px 0;
   padding: 30px;
   box-shadow: 5px 5px 10px 5px #c7c6c6;
+  width: 80%; 
 }
 
 
 .IconsContainer { 
-  width: 130px; 
-  display: inline-block;
+  display: flex; 
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+.Icons { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  box-sizing: border-box;
+  margin: 20px 10px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px 5px #c7c6c6;
+  width: 20%;
+}
+
+.Icons img { 
+ height: 50px; width: 50px;
 }

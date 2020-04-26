@@ -8,15 +8,29 @@ body {
 }
 
 h1 { 
-  text-align: center;
-  font-size: 80px;
-  margin: 0 0 10px 0; 
-  font-weight: lighter;
-}
+    text-align: center;
+    font-size: inherit;
+    margin: 0 0 10px 0; 
+    font-weight: lighter;
+  }
 
-h2 { 
-  text-align: center;
-  font-size: 60px;
-  font-weight: lighter;
-  margin: 0;
+  h2 { 
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 0;
+  }
+
+
+
+
+
+@media (min-width: 768.5px) { 
+  h1 { 
+    font-size: 80px;
+  }
+
+  h2 { 
+    font-size: 60px;
+  }
 }

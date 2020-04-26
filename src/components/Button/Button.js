@@ -8,10 +8,6 @@ const button = (props) => {
   let ButtonContent = null
   
   switch (props.buttonType) { 
-    case ('Landing'): 
-      ButtonStyle = classes.Button
-      ButtonContent = (<p>Join Challenge Now!</p>)  
-      break; 
     case ('GooglePlay'):
       ButtonStyle = classes.DownloadAppBtn;
       ButtonContent = <img src={GoogleLogo} alt="Google Logo" />
@@ -20,12 +16,12 @@ const button = (props) => {
       ButtonStyle = classes.DownloadAppBtn;
       ButtonContent = <img src={AppleLogo} alt="Apple Logo"/>
       break;
-    case ('KidsRize'):
-      ButtonStyle = classes.Button + ' ' + classes.Submit
-      ButtonContent = 'Here!'
+    case ('SignUp'):
+      ButtonStyle = classes.Button 
+      ButtonContent = <p>Sign Up!</p>
       break;
     case ('Contact'):
-      ButtonStyle = classes.Button + ' ' + classes.Submit
+      ButtonStyle = classes.Button 
       ButtonContent = 'Send';
       break;
     default: 

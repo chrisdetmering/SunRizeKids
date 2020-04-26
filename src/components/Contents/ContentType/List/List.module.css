@@ -1,24 +1,42 @@
-.List { 
-  text-align: center;
+  .List { 
+    text-align: center;
+  }
+
+  .List .Container { 
+    box-sizing: border-box;
+    margin: 20px 0;
+    padding: 10px 30px;
+    box-shadow: 5px 5px 10px 5px #888888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+
+
+  .List .Container img { 
+    margin: 10px 10px;
+  }
+
+
+@media (min-width: 768.4px) { 
+  .List .Container { 
+    padding: 20px 30px;
+    font-size: 30px;
+  }
+
+  .List .Container p { 
+    margin: 0;
+  }
+
+  .List .Container img { 
+    margin: 0 10px;
+  }
+
+
 }
 
-.List .Container { 
-  box-sizing: border-box;
-  margin: 20px 0;
-  padding: 20px 30px;
-  box-shadow: 5px 5px 10px 5px #888888;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.List .Container p { 
-  margin: 0;
-}
-
-.List .Container img { 
-  margin: 0 10px;
-}
 
 /* .List p { 
   box-sizing: border-box;

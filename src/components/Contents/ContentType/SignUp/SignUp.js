@@ -9,7 +9,7 @@ const signUp = () => {
   const hrefAppleStore = "https://apps.apple.com/us/app/wodify-rise/id1327914572";
   const AppleStore = 'AppleStore';
   const hrefSunRizeKids = "https://app.wodifyrise.com/Event/Event.aspx?u=sunrizekidsfitness";
-  const KidsRize = 'KidsRize';
+  const SignUp = 'SignUp';
 
   return( 
     <div className={classes.SignUpContainer}>
@@ -17,7 +17,7 @@ const signUp = () => {
         <div className={classes.Card}>
           <div className={classes.Num}>#1</div>
           <p style={{ margin: '10px' }}>Download the Wodify Rize App!</p>
-            <div className={classes.btnContainer}>
+            <div className={classes.btnContainer1}>
             <Button 
               href={hrefGooglePlay}
               buttonType={GooglePlay}/>   
@@ -32,9 +32,11 @@ const signUp = () => {
           <div className={classes.Num}>#2</div>
             <p style={{margin: '10px'}}>Register For KidsRize </p>
         
-          <div className={classes.btnContainer}><Button
+          <div className={classes.btnContainer2}>
+
+            <Button
               href={hrefSunRizeKids}
-              buttonType={KidsRize} /></div>
+              buttonType={SignUp} /></div>
           </div>
 
 

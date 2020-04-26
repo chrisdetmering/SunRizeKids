@@ -1,34 +1,37 @@
-.Button { 
+/* .Button { 
   background-color: #F16623;
   border-radius: 5px; 
   font-size: 20px; 
   color: white; 
   display: inline-block; 
   padding: 6px; 
-}
+} */
 
-.Button.Submit { 
+
+
+
+.Button { 
   background-color: transparent;
   border: 1px solid white; 
+  border-radius: 5px; 
   text-align: center;
-  width: 84px;
   font-size: 30px;
-  margin-top: 5px; 
+  padding: 6px; 
+  color: white; 
+  box-sizing: border-box;
+  height: 100%;
+  display: flex; 
+  align-items: center;
 }
 
-.Button p { 
+/* .Button p { 
   display: inline-block;
   height: 22px;
   margin: 0; 
   font-weight: bold;  
-}
+} */
 
 .Button:hover { 
-  cursor: pointer;
-  background-color: orange;
-}
-
-.Button.Submit:hover { 
   cursor: pointer;
   background-color: white; 
   color: #393a39;
@@ -36,17 +39,22 @@
 
 
 .DownloadAppBtn { 
-  width: 130px; height: 80px;
+  width: 30%; height: 50%;
   display: flex; 
   justify-content: center; 
   border-radius: 5px; 
-  margin: 0 5px; 
+  margin: 0 20px; 
+  border: 1px solid transparent; 
 }
+
 
 .DownloadAppBtn:hover { 
   cursor: pointer;
+  background-color: teal;
+  border: 1px solid white; 
 }
 
 .DownloadAppBtn img { 
   height: 100%;
+  width: 100%; 
 }

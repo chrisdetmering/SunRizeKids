@@ -3,6 +3,7 @@ import classes from './Layout.module.css';
 import Landing from '../Landing/Landing';
 import Strips from '../Strips/Strips';
 import Footer from '../../containers/Footer/Footer';
+import Navbar from '../Navbar/Navbar';
 
 
 const layout = () => { 
@@ -11,6 +12,7 @@ const layout = () => {
       <Landing />
       <Strips />
       <Footer />
+      <Navbar />
    </div>
   )
 }

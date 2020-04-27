@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './SignUp.module.css';
-// import phonePic from '../../../../assets/app_photo.png';
+import phonePic from '../../../../assets/app_photo.png';
 import Button from '../../../Button/Button';
 
 const signUp = () => { 
@@ -41,9 +41,9 @@ const signUp = () => {
 
 
         </div>
-      {/* <div className={classes.PhonePicContainer}>
+      <div className={classes.PhonePicContainer}>
         <img src={phonePic}  alt='SunRize Kids on Wodify App'/>
-      </div> */}
+      </div>
     </div>
   )
 }

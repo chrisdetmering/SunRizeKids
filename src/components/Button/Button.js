@@ -20,6 +20,10 @@ const button = (props) => {
       ButtonStyle = classes.Button 
       ButtonContent = <p>Sign Up!</p>
       break;
+    case ('Landing'):
+      ButtonStyle = classes.Button + ' ' + classes.Landing
+      ButtonContent = <p>Register!</p>
+      break;
     case ('Contact'):
       ButtonStyle = classes.Button 
       ButtonContent = 'Send';

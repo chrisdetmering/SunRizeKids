@@ -26,6 +26,9 @@
 
   }
 
+  .PhonePicContainer img { 
+    display: none;
+  }
 
 
 @media (min-width: 768.5px) { 
@@ -60,6 +63,7 @@
 
   .PhonePicContainer img { 
     width: 268px; 
+    display: inline-block;
   }
 
   .Num { 

@@ -33,8 +33,7 @@
 
 .Button:hover { 
   cursor: pointer;
-  background-color: white; 
-  color: #393a39;
+  background-color: teal;
 }
 
 

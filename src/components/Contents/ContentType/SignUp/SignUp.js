@@ -27,7 +27,6 @@ const signUp = () => {
             </div>
         </div>
 
-
           <div className={classes.Card}>
           <div className={classes.Num}>#2</div>
             <p style={{margin: '10px'}}>Register For KidsRize </p>
@@ -38,7 +37,6 @@ const signUp = () => {
               href={hrefSunRizeKids}
               buttonType={SignUp} /></div>
           </div>
-
 
         </div>
       <div className={classes.PhonePicContainer}>
